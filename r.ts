@@ -7,10 +7,11 @@ function r(t = 5) {
     magik.setTimeout(shield, 300);
     magik.dixit('magical shield');
 
-    var me = magik.getSender();
+    var player = magik.getSender();
+    
 
     function shield(){
-            magik.dixit('more shield', me.getName());
+            magik.dixit('more shield', player.getName());
 
     }
 }
