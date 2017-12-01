@@ -1,5 +1,5 @@
 const magik = magikcraft.io;
 
 function duck() {
-	magik.exsultus(4)
+	magik.exsultus(100)
 }
