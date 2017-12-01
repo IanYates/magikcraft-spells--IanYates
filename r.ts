@@ -7,11 +7,9 @@ function r(t = 5) {
     magik.setTimeout(shield, 300);
     magik.dixit('magical shield');
 
-    var player = magik.getSender();
-    
-
     function shield(){
-            magik.dixit('more shield', player.getName());
-
+        n--;
+        const location = magik.hic();
+        const nearbyEntities = location.getWorld().strikeLightning(location);
     }
 }
